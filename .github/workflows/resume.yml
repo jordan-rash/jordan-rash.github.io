@@ -27,6 +27,7 @@ jobs:
         run: |
           mkdir public
           resume export public/index.html --format html --theme kendall
+          sed -i 's/Awards/Certifications/g' public/index.html
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
