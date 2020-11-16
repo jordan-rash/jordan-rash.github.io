@@ -1,0 +1,34 @@
+name: ResumePublish
+on:
+  push:
+    branches:
+      - master
+jobs:
+  gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v2
+      
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+            python-version: '12'
+      
+      - name: Install Dependencies
+        run: |
+          npm install -g resume-cli
+          npm install -g jsonresume-theme-kendall
+      
+      - name: Test resume.json
+        run: resume test
+      
+      - name: Build resume.json
+        run: |
+          mkdir public
+          resume export public/index.html --format html --theme kendall
+        
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

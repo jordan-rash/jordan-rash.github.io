@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Christopher Jordan Rash",
     "label": "Go Developer | Site Reliable Engineer",
@@ -7,9 +8,9 @@
     "website": "https://cjrash.com",
     "summary": "Jordan is a US Navy veteran that earned his degree from the United States Naval Academy in Annapolis, MD. He excels at working efficiently and thriving in a productive team environment. Whether Jordan is helping a customer with an issue they are facing, or working with a teammate that lives 10 time zones away, success requires open communication, defined expectations, and space to innovate. Most importantly, his career has taught him there is always room to learn and improve.  Jordan is passionate about open source software and cybersecurity.",
     "location": {
-      "city": "Melbourne",
-      "countryCode": "AUS",
-      "region": "Victoria"
+      "city": "Denver",
+      "countryCode": "USA",
+      "region": "Colorado"
     }
   },
   "work": [
@@ -33,11 +34,11 @@
       "endDate": "2017-11",
       "summary": "",
       "highlights": [
-          "Managed team of 2 developers, 3 analysts, and 1 infrastructure personnel responsible for customer security platform. Defined SLAs and identified SLOs to support companies priorities.",
-          "Utilized the McAfee SIEM stack to develop analytics and correlation rules against real time endpoint and network data.",
-          "Designed and implemented network engineering plans to determine the best location for McAfee and open source sensors and data collectors.",
-          "Led development of an open source, “serverless” Incident Management System that utilizes many of the Amazon Web Services (AWS) features, such as Lambda, DynamoDB, and Elastic Beanstalk.",
-          "Interfaced daily with customers to ensure maximum communication and on-time deliverables."
+        "Managed team of 2 developers, 3 analysts, and 1 infrastructure personnel responsible for customer security platform. Defined SLAs and identified SLOs to support companies priorities.",
+        "Utilized the McAfee SIEM stack to develop analytics and correlation rules against real time endpoint and network data.",
+        "Designed and implemented network engineering plans to determine the best location for McAfee and open source sensors and data collectors.",
+        "Led development of an open source, “serverless” Incident Management System that utilizes many of the Amazon Web Services (AWS) features, such as Lambda, DynamoDB, and Elastic Beanstalk.",
+        "Interfaced daily with customers to ensure maximum communication and on-time deliverables."
       ]
     },
     {
@@ -48,12 +49,12 @@
       "endDate": "2017-06",
       "summary": "",
       "highlights": [
-          "Managed development and deployment of five software development efforts that supported NIOC data analysis and synchronous global operations.",
-          "Led Vulnerability Assessment Teams in identifying attack vectors and analysis of intrusions into U.S. Government networks that includes working with partner organizations to expand analysis.",
-          "Responsible for the personal and professional growth of fourteen NIOC employees ranging from continued education training to managing timesheets and leave requests.",
-          "Identified systemic security issues with UNIX/Linux systems and provided recommendations for mitigating those issues, improving the overall security of U.S. Government networks.",
-          "Developed Python based software to extract event based data from various sources for analysis, automating the formerly manual process of moving data from collection sources to analysis platforms to include Splunk.",
-          "Created, tested, and deployed custom analytics to identify malicious activity and misconfigurations on enterprise networks."
+        "Managed development and deployment of five software development efforts that supported NIOC data analysis and synchronous global operations.",
+        "Led Vulnerability Assessment Teams in identifying attack vectors and analysis of intrusions into U.S. Government networks that includes working with partner organizations to expand analysis.",
+        "Responsible for the personal and professional growth of fourteen NIOC employees ranging from continued education training to managing timesheets and leave requests.",
+        "Identified systemic security issues with UNIX/Linux systems and provided recommendations for mitigating those issues, improving the overall security of U.S. Government networks.",
+        "Developed Python based software to extract event based data from various sources for analysis, automating the formerly manual process of moving data from collection sources to analysis platforms to include Splunk.",
+        "Created, tested, and deployed custom analytics to identify malicious activity and misconfigurations on enterprise networks."
       ]
     },
     {
@@ -64,9 +65,9 @@
       "endDate": "2014-04",
       "summary": "",
       "highlights": [
-          "Responsible for maintaining technician level knowledge on over $200 million dollars worth of electronics onboard the Navy’s newest and most technologically advanced warship to networking equipment and advanced external RF communications equipment.",
-          "Head network administrator of medium sized Windows domain. Network consisted of 2 Domain Controllers, 100 endpoints, 2 RHEL servers, 14 networking devices and supported 150 personnel.",
-          "Responsible for maintaining an accurate inventory for more than 200,000 pieces of ordnance with zero discrepancies as well as the firearms qualifications and safety standards of 250 sailors."
+        "Responsible for maintaining technician level knowledge on over $200 million dollars worth of electronics onboard the Navy’s newest and most technologically advanced warship to networking equipment and advanced external RF communications equipment.",
+        "Head network administrator of medium sized Windows domain. Network consisted of 2 Domain Controllers, 100 endpoints, 2 RHEL servers, 14 networking devices and supported 150 personnel.",
+        "Responsible for maintaining an accurate inventory for more than 200,000 pieces of ordnance with zero discrepancies as well as the firearms qualifications and safety standards of 250 sailors."
       ]
     }
   ],
@@ -101,10 +102,7 @@
   "skills": [
     {
       "name": "Backend Developer",
-      "keywords": [
-        "Golang",
-        "Python"
-      ]
+      "keywords": ["Golang", "Python"]
     },
     {
       "name": "Operations Engineer",
@@ -135,63 +133,56 @@
   "interests": [
     {
       "name": "Cloud Native Computing Foundation",
-      "keywords": [
-        "Gloo",
-        "Linkerd",
-        "Rook"
-      ]
+      "keywords": ["Gloo", "Linkerd", "Rook"]
     },
     {
       "name": "Fitness",
-      "keywords": [
-        "Strongman",
-        "Baseball",
-        "HIIT"
-      ]
+      "keywords": ["Strongman", "Baseball", "HIIT"]
     },
     {
       "name": "Free Time",
-      "keywords": [
-        "Sailboats",
-        "DIY Home Projects",
-        "Learning New Tech"
-      ]
+      "keywords": ["Sailboats", "DIY Home Projects", "Learning New Tech"]
     }
   ],
   "awards": [
     {
-        "title": "Security+",
-        "awarder": "COMPTIA",
-        "date": "2013-03"
+      "title": "Security+",
+      "awarder": "COMPTIA",
+      "date": "2013-03"
     },
     {
-        "title": "GIAC - GIAC Incident Handler",
-        "awarder": "SANS Institute",
-        "date": "2015-11"
+      "title": "GIAC - GIAC Incident Handler",
+      "awarder": "SANS Institute",
+      "date": "2015-11"
     },
     {
-        "title": "GPEN - GIAC Penetration Tester",
-        "awarder": "SANS Institute",
-        "date": "2016-03"
+      "title": "GPEN - GIAC Penetration Tester",
+      "awarder": "SANS Institute",
+      "date": "2016-03"
     },
     {
-        "title": "GMON - GIAC Continous Monitoring",
-        "awarder": "SANS Institute",
-        "date": "2016-06"
+      "title": "GMON - GIAC Continous Monitoring",
+      "awarder": "SANS Institute",
+      "date": "2016-06"
     },
     {
-        "title": "GSEC - GIAC Security Essentials",
-        "awarder": "SANS Institute",
-        "date": "2016-10"
+      "title": "GSEC - GIAC Security Essentials",
+      "awarder": "SANS Institute",
+      "date": "2016-10"
     },
     {
-        "title": "GSEC SEC550 - GIAC Active Defense, Offensive Countermeasures, and Cyber Deception (Training)",
-        "awarder": "SANS Institute",
-        "date": "2016-11"
+      "title": "GSEC SEC550 - GIAC Active Defense, Offensive Countermeasures, and Cyber Deception (Training)",
+      "awarder": "SANS Institute",
+      "date": "2016-11"
     },
     {
-        "title": "Certified Kubernetes Administrator - Pending",
-        "awarder": "Linux Foundation"
+      "title": "Certified Kubernetes Administrator - Pending",
+      "awarder": "Linux Foundation"
     }
-  ]
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2020-11-16T13:33:00"
+  }
 }
